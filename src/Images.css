@@ -1,0 +1,21 @@
+#main-img img{
+    height: 330px;
+    width: 220px;
+}
+#Galary{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,150px);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#Galary img {
+    margin-left: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
